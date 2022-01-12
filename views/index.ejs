@@ -1,0 +1,15 @@
+<%- include('header'); -%>
+    <div class="container">
+      <i class="fas fa-cloud-sun-rain fa-4x"></i>
+      <h1>Weather Data</h1>
+      <p>Enter the city to know it's weather!</p>
+      <div class="Result">
+        <form action="/" method="post">
+          <label for="cityInput">City Name: </label>
+          <input id="cityInput" type="text" name="city" autocomplete="off"><br>
+          <button type="submit" name="submit" class="submit">Go</button>
+        </form>
+      </div>
+      <img src="images/map.jpg" class="map" alt="">
+    </div>
+<%- include('footer'); -%>

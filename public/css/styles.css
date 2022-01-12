@@ -1,0 +1,51 @@
+body{
+  background-image: -webkit-linear-gradient(-70deg, #C490E4 50%, #F6C6EA 50%);
+  font-family: 'Poppins',sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+.container{
+  width: 400px;
+  height: 440px;
+  background-color: white;
+  margin: 0 auto;
+  top: 40px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+p{
+  margin-top: -10px;
+}
+.Result{
+   padding: 15px;
+}
+.submit{
+  background: #7952B3;
+  border-radius: 28px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-width: 0;
+  margin-top: 20px;
+}
+.map{
+  margin-top: 20px;
+  width: 200px;
+  height: 100px;
+}
+.fas{
+  color: #7952B3;
+}
+.result{
+    width: 400px;
+    height: 440px;
+    background-color: white;
+    margin: 0 auto;
+    top: 40px;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
