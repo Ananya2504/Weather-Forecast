@@ -13,7 +13,7 @@ app.get("/",function(request,response){
 
 app.post("/",function(request,response){
   const city=request.body.city;
-  const appid="a5970d2f788b6a7aab586f98b453323f";
+  const appid="token";
   const unit="metric";
   const url="https://api.openweathermap.org/data/2.5/weather?q="+city+"&units="+unit+"&appid="+appid;
   https.get(url, function(res){
